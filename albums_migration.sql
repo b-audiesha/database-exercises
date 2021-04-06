@@ -1,5 +1,5 @@
 USE codeup_test_db;
-DROP TABLES IF EXISTs albums;
+DROP TABLE  IF EXISTs albums;
 
 CREATE TABLE IF NOT EXISTs albums(
 id INT unsigned auto_increment not null,

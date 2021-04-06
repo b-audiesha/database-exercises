@@ -1,9 +1,9 @@
 USE bank_db;
-DROP TABLE IF EXIST transactions;
+DROP TABLE IF EXISTS transactions;
 
-CREATE TABLE IF NOT EXIST transactions(
+CREATE TABLE IF NOT EXISTS transactions(
 id INT  UNSIGNED NOT NULL AUTO_INCREMENT,
-date DATE - format YYYY-MM-DD,
+date DATE format YYYY-MM-DD,
 description VARCHAR(100),
 memo TEXT,
 amount DECIMAL (10,2),
